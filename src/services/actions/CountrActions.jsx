@@ -1,5 +1,6 @@
 import { DECREMENT, INCREMENT,  RESET } from "../constants/CounterConstant"
 
+// eslint-disable-next-line react-refresh/only-export-components
 export const incrementCounter = () => {
     return {
         type: INCREMENT
